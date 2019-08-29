@@ -52,3 +52,10 @@ curalate.getMedia(limit: limit, filter: filter) { (response, error) ... }
 // self.cursors set from previous call. cursors = response.paging.cursors.
 curalate.getMedia(limit: limit, after: self.cursors.after) { (response, error) .. }
 ```
+
+### Recording Events
+
+```swift
+// Note that events are queued for batch processing
+self.recordEvent(type: .itemClick, itemId: itemId, position: itemIndex)
+```
