@@ -8,8 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		490F1C8322FB7A46008DBA11 /* CuralateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F1C7922FB7A45008DBA11 /* CuralateKit.framework */; };
-		490F1C8822FB7A46008DBA11 /* CuralateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F1C8722FB7A46008DBA11 /* CuralateKitTests.swift */; };
 		490F1C8A22FB7A46008DBA11 /* CuralateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 490F1C7C22FB7A45008DBA11 /* CuralateKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4962A7862301D12000DBF815 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962A7852301D12000DBF815 /* Client.swift */; };
+		4962A78E2301D74A00DBF815 /* Curalate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962A78D2301D74A00DBF815 /* Curalate.swift */; };
+		496DE397230B162A0033CABE /* CuralateAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DE396230B162A0033CABE /* CuralateAPIError.swift */; };
+		496DE399230B21610033CABE /* MediaSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DE398230B21610033CABE /* MediaSort.swift */; };
+		49CEBCB422FB83C800904CD1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB322FB83C800904CD1 /* String.swift */; };
+		49CEBCB522FB83C800904CD1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB322FB83C800904CD1 /* String.swift */; };
+		49CEBCB822FB83D500904CD1 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB622FB83D500904CD1 /* MediaFilter.swift */; };
+		49CEBCB922FB83D500904CD1 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB622FB83D500904CD1 /* MediaFilter.swift */; };
+		49CEBCC122FB83DE00904CD1 /* MediaItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */; };
+		49CEBCC222FB83DE00904CD1 /* MediaItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */; };
+		49CEBCC322FB83DE00904CD1 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */; };
+		49CEBCC422FB83DE00904CD1 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */; };
+		49CEBCC522FB83DE00904CD1 /* GetMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */; };
+		49CEBCC622FB83DE00904CD1 /* GetMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */; };
+		49CEBCC722FB83DE00904CD1 /* MediaItemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */; };
+		49CEBCC822FB83DE00904CD1 /* MediaItemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */; };
+		49CEBCC922FB83DE00904CD1 /* MediaItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */; };
+		49CEBCCA22FB83DE00904CD1 /* MediaItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */; };
+		49CEBCCC22FB83E600904CD1 /* PagingCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */; };
+		49CEBCCD22FB83E600904CD1 /* PagingCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */; };
+		49F089822318294B0046C455 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F089812318294B0046C455 /* EventType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,27 +40,6 @@
 			remoteGlobalIDString = 490F1C7822FB7A45008DBA11;
 			remoteInfo = CuralateKit;
 		};
-		490F1CD322FB7B1E008DBA11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 490F1CCD22FB7B1D008DBA11 /* CuralateKitExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 490F1C9C22FB7B1C008DBA11;
-			remoteInfo = CuralateKitExample;
-		};
-		490F1CD522FB7B1E008DBA11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 490F1CCD22FB7B1D008DBA11 /* CuralateKitExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 490F1CB022FB7B1D008DBA11;
-			remoteInfo = CuralateKitExampleTests;
-		};
-		490F1CD722FB7B1E008DBA11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 490F1CCD22FB7B1D008DBA11 /* CuralateKitExample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 490F1CBB22FB7B1D008DBA11;
-			remoteInfo = CuralateKitExampleUITests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +47,19 @@
 		490F1C7C22FB7A45008DBA11 /* CuralateKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CuralateKit.h; sourceTree = "<group>"; };
 		490F1C7D22FB7A45008DBA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490F1C8222FB7A46008DBA11 /* CuralateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuralateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		490F1C8722FB7A46008DBA11 /* CuralateKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateKitTests.swift; sourceTree = "<group>"; };
-		490F1C8922FB7A46008DBA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490F1CCD22FB7B1D008DBA11 /* CuralateKitExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CuralateKitExample.xcodeproj; path = CuralateKitExample/CuralateKitExample.xcodeproj; sourceTree = "<group>"; };
+		4962A7852301D12000DBF815 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		4962A78D2301D74A00DBF815 /* Curalate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curalate.swift; sourceTree = "<group>"; };
+		496DE396230B162A0033CABE /* CuralateAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateAPIError.swift; sourceTree = "<group>"; };
+		496DE398230B21610033CABE /* MediaSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSort.swift; sourceTree = "<group>"; };
+		49CEBCB322FB83C800904CD1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extensions/String.swift; sourceTree = "<group>"; };
+		49CEBCB622FB83D500904CD1 /* MediaFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaFilter.swift; path = Requests/MediaFilter.swift; sourceTree = "<group>"; };
+		49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItemMedia.swift; path = Responses/MediaItemMedia.swift; sourceTree = "<group>"; };
+		49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItem.swift; path = Responses/MediaItem.swift; sourceTree = "<group>"; };
+		49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetMediaResponse.swift; path = Responses/GetMediaResponse.swift; sourceTree = "<group>"; };
+		49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItemProduct.swift; path = Responses/MediaItemProduct.swift; sourceTree = "<group>"; };
+		49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItemSource.swift; path = Responses/MediaItemSource.swift; sourceTree = "<group>"; };
+		49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingCursor.swift; path = Shared/PagingCursor.swift; sourceTree = "<group>"; };
+		49F089812318294B0046C455 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +84,7 @@
 		490F1C6F22FB7A45008DBA11 = {
 			isa = PBXGroup;
 			children = (
-				490F1CCD22FB7B1D008DBA11 /* CuralateKitExample.xcodeproj */,
 				490F1C7B22FB7A45008DBA11 /* CuralateKit */,
-				490F1C8622FB7A46008DBA11 /* CuralateKitTests */,
 				490F1C7A22FB7A45008DBA11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,29 +101,23 @@
 		490F1C7B22FB7A45008DBA11 /* CuralateKit */ = {
 			isa = PBXGroup;
 			children = (
+				49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */,
+				49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */,
+				49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */,
+				49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */,
+				49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */,
+				49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */,
+				49CEBCB622FB83D500904CD1 /* MediaFilter.swift */,
+				49CEBCB322FB83C800904CD1 /* String.swift */,
 				490F1C7C22FB7A45008DBA11 /* CuralateKit.h */,
 				490F1C7D22FB7A45008DBA11 /* Info.plist */,
+				4962A7852301D12000DBF815 /* Client.swift */,
+				4962A78D2301D74A00DBF815 /* Curalate.swift */,
+				496DE396230B162A0033CABE /* CuralateAPIError.swift */,
+				496DE398230B21610033CABE /* MediaSort.swift */,
+				49F089812318294B0046C455 /* EventType.swift */,
 			);
 			path = CuralateKit;
-			sourceTree = "<group>";
-		};
-		490F1C8622FB7A46008DBA11 /* CuralateKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				490F1C8722FB7A46008DBA11 /* CuralateKitTests.swift */,
-				490F1C8922FB7A46008DBA11 /* Info.plist */,
-			);
-			path = CuralateKitTests;
-			sourceTree = "<group>";
-		};
-		490F1CCE22FB7B1D008DBA11 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				490F1CD422FB7B1E008DBA11 /* CuralateKitExample.app */,
-				490F1CD622FB7B1E008DBA11 /* CuralateKitExampleTests.xctest */,
-				490F1CD822FB7B1E008DBA11 /* CuralateKitExampleUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +182,7 @@
 				TargetAttributes = {
 					490F1C7822FB7A45008DBA11 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					490F1C8122FB7A46008DBA11 = {
 						CreatedOnToolsVersion = 10.3;
@@ -197,12 +199,6 @@
 			mainGroup = 490F1C6F22FB7A45008DBA11;
 			productRefGroup = 490F1C7A22FB7A45008DBA11 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 490F1CCE22FB7B1D008DBA11 /* Products */;
-					ProjectRef = 490F1CCD22FB7B1D008DBA11 /* CuralateKitExample.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				490F1C7822FB7A45008DBA11 /* CuralateKit */,
@@ -210,30 +206,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		490F1CD422FB7B1E008DBA11 /* CuralateKitExample.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CuralateKitExample.app;
-			remoteRef = 490F1CD322FB7B1E008DBA11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		490F1CD622FB7B1E008DBA11 /* CuralateKitExampleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CuralateKitExampleTests.xctest;
-			remoteRef = 490F1CD522FB7B1E008DBA11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		490F1CD822FB7B1E008DBA11 /* CuralateKitExampleUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CuralateKitExampleUITests.xctest;
-			remoteRef = 490F1CD722FB7B1E008DBA11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		490F1C7722FB7A45008DBA11 /* Resources */ = {
@@ -257,6 +229,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CEBCB422FB83C800904CD1 /* String.swift in Sources */,
+				49CEBCB822FB83D500904CD1 /* MediaFilter.swift in Sources */,
+				496DE399230B21610033CABE /* MediaSort.swift in Sources */,
+				4962A78E2301D74A00DBF815 /* Curalate.swift in Sources */,
+				49CEBCC122FB83DE00904CD1 /* MediaItemMedia.swift in Sources */,
+				49CEBCC722FB83DE00904CD1 /* MediaItemProduct.swift in Sources */,
+				49CEBCCC22FB83E600904CD1 /* PagingCursor.swift in Sources */,
+				49CEBCC922FB83DE00904CD1 /* MediaItemSource.swift in Sources */,
+				49F089822318294B0046C455 /* EventType.swift in Sources */,
+				49CEBCC322FB83DE00904CD1 /* MediaItem.swift in Sources */,
+				496DE397230B162A0033CABE /* CuralateAPIError.swift in Sources */,
+				4962A7862301D12000DBF815 /* Client.swift in Sources */,
+				49CEBCC522FB83DE00904CD1 /* GetMediaResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490F1C8822FB7A46008DBA11 /* CuralateKitTests.swift in Sources */,
+				49CEBCC622FB83DE00904CD1 /* GetMediaResponse.swift in Sources */,
+				49CEBCB522FB83C800904CD1 /* String.swift in Sources */,
+				49CEBCC222FB83DE00904CD1 /* MediaItemMedia.swift in Sources */,
+				49CEBCC422FB83DE00904CD1 /* MediaItem.swift in Sources */,
+				49CEBCC822FB83DE00904CD1 /* MediaItemProduct.swift in Sources */,
+				49CEBCB922FB83D500904CD1 /* MediaFilter.swift in Sources */,
+				49CEBCCD22FB83E600904CD1 /* PagingCursor.swift in Sources */,
+				49CEBCCA22FB83DE00904CD1 /* MediaItemSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +396,7 @@
 		490F1C8E22FB7A46008DBA11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -421,6 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.curalate.CuralateKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,6 +423,7 @@
 		490F1C8F22FB7A46008DBA11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -454,6 +449,7 @@
 		490F1C9122FB7A46008DBA11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
 				INFOPLIST_FILE = CuralateKitTests/Info.plist;
@@ -472,6 +468,7 @@
 		490F1C9222FB7A46008DBA11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
 				INFOPLIST_FILE = CuralateKitTests/Info.plist;
