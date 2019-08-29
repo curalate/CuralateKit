@@ -57,5 +57,5 @@ curalate.getMedia(limit: limit, after: self.cursors.after) { (response, error) .
 
 ```swift
 // Note that events are queued for batch processing
-self.recordEvent(type: .itemClick, itemId: itemId, position: itemIndex)
+curalate.recordEvent(type: .itemClick, itemId: itemId, position: itemIndex)
 ```
