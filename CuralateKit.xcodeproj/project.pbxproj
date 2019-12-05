@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490F1C8322FB7A46008DBA11 /* CuralateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F1C7922FB7A45008DBA11 /* CuralateKit.framework */; };
+		20BB253C875E0ADA3B0098E1 /* libPods-CuralateKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A16726E3A93E94D4405B4DFE /* libPods-CuralateKit.a */; };
 		490F1C8A22FB7A46008DBA11 /* CuralateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 490F1C7C22FB7A45008DBA11 /* CuralateKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4927A387239860E100050296 /* CuralateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A386239860E100050296 /* CuralateKitTests.swift */; };
+		4927A389239860E100050296 /* CuralateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F1C7922FB7A45008DBA11 /* CuralateKit.framework */; };
+		49621E8223985E0100C10680 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8123985E0100C10680 /* String.swift */; };
+		49621E8B23985E6E00C10680 /* NetworkPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8A23985E6E00C10680 /* NetworkPhoto.swift */; };
+		49621E8C23985E6E00C10680 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8723985E6E00C10680 /* MediaItem.swift */; };
+		49621E8D23985E6E00C10680 /* MediaItemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8823985E6E00C10680 /* MediaItemProduct.swift */; };
+		49621E8E23985E6E00C10680 /* MediaItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8923985E6E00C10680 /* MediaItemSource.swift */; };
+		49621E9023985E8E00C10680 /* GetMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8F23985E8E00C10680 /* GetMediaResponse.swift */; };
+		49621E9223985EA300C10680 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E9123985EA300C10680 /* MediaFilter.swift */; };
+		49621E9523985ED000C10680 /* PagingCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E9423985ED000C10680 /* PagingCursor.swift */; };
 		4962A7862301D12000DBF815 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962A7852301D12000DBF815 /* Client.swift */; };
 		4962A78E2301D74A00DBF815 /* Curalate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962A78D2301D74A00DBF815 /* Curalate.swift */; };
 		496DE397230B162A0033CABE /* CuralateAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DE396230B162A0033CABE /* CuralateAPIError.swift */; };
 		496DE399230B21610033CABE /* MediaSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DE398230B21610033CABE /* MediaSort.swift */; };
-		49CEBCB422FB83C800904CD1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB322FB83C800904CD1 /* String.swift */; };
-		49CEBCB522FB83C800904CD1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB322FB83C800904CD1 /* String.swift */; };
-		49CEBCB822FB83D500904CD1 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB622FB83D500904CD1 /* MediaFilter.swift */; };
-		49CEBCB922FB83D500904CD1 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCB622FB83D500904CD1 /* MediaFilter.swift */; };
-		49CEBCC122FB83DE00904CD1 /* MediaItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */; };
-		49CEBCC222FB83DE00904CD1 /* MediaItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */; };
-		49CEBCC322FB83DE00904CD1 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */; };
-		49CEBCC422FB83DE00904CD1 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */; };
-		49CEBCC522FB83DE00904CD1 /* GetMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */; };
-		49CEBCC622FB83DE00904CD1 /* GetMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */; };
-		49CEBCC722FB83DE00904CD1 /* MediaItemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */; };
-		49CEBCC822FB83DE00904CD1 /* MediaItemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */; };
-		49CEBCC922FB83DE00904CD1 /* MediaItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */; };
-		49CEBCCA22FB83DE00904CD1 /* MediaItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */; };
-		49CEBCCC22FB83E600904CD1 /* PagingCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */; };
-		49CEBCCD22FB83E600904CD1 /* PagingCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */; };
+		4970E2DD2398738600DE70CF /* getMedia01.json in Resources */ = {isa = PBXBuildFile; fileRef = 4970E2D923986E4D00DE70CF /* getMedia01.json */; };
+		4970E2DF2398807200DE70CF /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2DE2398807200DE70CF /* Image.swift */; };
+		4970E2E12398809500DE70CF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2E02398809500DE70CF /* Video.swift */; };
+		4970E2E3239882AF00DE70CF /* NetworkMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2E2239882AF00DE70CF /* NetworkMedia.swift */; };
+		4970E2EB23988F2D00DE70CF /* NetworkVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2EA23988F2D00DE70CF /* NetworkVideo.swift */; };
+		4970E2ED2398905300DE70CF /* NetworkGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2EC2398905300DE70CF /* NetworkGif.swift */; };
 		49F089822318294B0046C455 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F089812318294B0046C455 /* EventType.swift */; };
+		7186FFDD33D32B126F45E50A /* libPods-CuralateKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418AC3A34EFB6A3433AFEFB7 /* libPods-CuralateKitTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		490F1C8422FB7A46008DBA11 /* PBXContainerItemProxy */ = {
+		4927A38A239860E100050296 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 490F1C7022FB7A45008DBA11 /* Project object */;
 			proxyType = 1;
@@ -43,23 +44,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		418AC3A34EFB6A3433AFEFB7 /* libPods-CuralateKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CuralateKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F1C7922FB7A45008DBA11 /* CuralateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CuralateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F1C7C22FB7A45008DBA11 /* CuralateKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CuralateKit.h; sourceTree = "<group>"; };
 		490F1C7D22FB7A45008DBA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490F1C8222FB7A46008DBA11 /* CuralateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuralateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4927A384239860E100050296 /* CuralateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuralateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4927A386239860E100050296 /* CuralateKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateKitTests.swift; sourceTree = "<group>"; };
+		4927A388239860E100050296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49621E8123985E0100C10680 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		49621E8723985E6E00C10680 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		49621E8823985E6E00C10680 /* MediaItemProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemProduct.swift; sourceTree = "<group>"; };
+		49621E8923985E6E00C10680 /* MediaItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemSource.swift; sourceTree = "<group>"; };
+		49621E8A23985E6E00C10680 /* NetworkPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPhoto.swift; sourceTree = "<group>"; };
+		49621E8F23985E8E00C10680 /* GetMediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMediaResponse.swift; sourceTree = "<group>"; };
+		49621E9123985EA300C10680 /* MediaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFilter.swift; sourceTree = "<group>"; };
+		49621E9423985ED000C10680 /* PagingCursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCursor.swift; sourceTree = "<group>"; };
 		4962A7852301D12000DBF815 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		4962A78D2301D74A00DBF815 /* Curalate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curalate.swift; sourceTree = "<group>"; };
 		496DE396230B162A0033CABE /* CuralateAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateAPIError.swift; sourceTree = "<group>"; };
 		496DE398230B21610033CABE /* MediaSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSort.swift; sourceTree = "<group>"; };
-		49CEBCB322FB83C800904CD1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extensions/String.swift; sourceTree = "<group>"; };
-		49CEBCB622FB83D500904CD1 /* MediaFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaFilter.swift; path = Requests/MediaFilter.swift; sourceTree = "<group>"; };
-		49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItemMedia.swift; path = Responses/MediaItemMedia.swift; sourceTree = "<group>"; };
-		49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItem.swift; path = Responses/MediaItem.swift; sourceTree = "<group>"; };
-		49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetMediaResponse.swift; path = Responses/GetMediaResponse.swift; sourceTree = "<group>"; };
-		49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItemProduct.swift; path = Responses/MediaItemProduct.swift; sourceTree = "<group>"; };
-		49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaItemSource.swift; path = Responses/MediaItemSource.swift; sourceTree = "<group>"; };
-		49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingCursor.swift; path = Shared/PagingCursor.swift; sourceTree = "<group>"; };
+		4970E2D923986E4D00DE70CF /* getMedia01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = getMedia01.json; sourceTree = "<group>"; };
+		4970E2DE2398807200DE70CF /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4970E2E02398809500DE70CF /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		4970E2E2239882AF00DE70CF /* NetworkMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMedia.swift; sourceTree = "<group>"; };
+		4970E2EA23988F2D00DE70CF /* NetworkVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkVideo.swift; sourceTree = "<group>"; };
+		4970E2EC2398905300DE70CF /* NetworkGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGif.swift; sourceTree = "<group>"; };
 		49F089812318294B0046C455 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		516454996C7C0B143CB757AE /* Pods-CuralateKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKitTests.release.xcconfig"; path = "Target Support Files/Pods-CuralateKitTests/Pods-CuralateKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		68C1A3DE68B8D87C4C4536A3 /* Pods-CuralateKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKitTests.debug.xcconfig"; path = "Target Support Files/Pods-CuralateKitTests/Pods-CuralateKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3FC3E00EC4AB566DB4EE29 /* Pods-CuralateKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKit.debug.xcconfig"; path = "Target Support Files/Pods-CuralateKit/Pods-CuralateKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A16726E3A93E94D4405B4DFE /* libPods-CuralateKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CuralateKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3989019E2F02F73A67310F0 /* Pods-CuralateKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKit.release.xcconfig"; path = "Target Support Files/Pods-CuralateKit/Pods-CuralateKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +82,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BB253C875E0ADA3B0098E1 /* libPods-CuralateKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490F1C7F22FB7A46008DBA11 /* Frameworks */ = {
+		4927A381239860E100050296 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490F1C8322FB7A46008DBA11 /* CuralateKit.framework in Frameworks */,
+				4927A389239860E100050296 /* CuralateKit.framework in Frameworks */,
+				7186FFDD33D32B126F45E50A /* libPods-CuralateKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				490F1C7B22FB7A45008DBA11 /* CuralateKit */,
+				4927A385239860E100050296 /* CuralateKitTests */,
 				490F1C7A22FB7A45008DBA11 /* Products */,
+				834D7FF9990401FF4E0CDE48 /* Pods */,
+				F02249B12CD8E159D0EABDCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				490F1C7922FB7A45008DBA11 /* CuralateKit.framework */,
-				490F1C8222FB7A46008DBA11 /* CuralateKitTests.xctest */,
+				4927A384239860E100050296 /* CuralateKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +121,10 @@
 		490F1C7B22FB7A45008DBA11 /* CuralateKit */ = {
 			isa = PBXGroup;
 			children = (
-				49CEBCCB22FB83E600904CD1 /* PagingCursor.swift */,
-				49CEBCBE22FB83DE00904CD1 /* GetMediaResponse.swift */,
-				49CEBCBD22FB83DE00904CD1 /* MediaItem.swift */,
-				49CEBCBC22FB83DE00904CD1 /* MediaItemMedia.swift */,
-				49CEBCBF22FB83DE00904CD1 /* MediaItemProduct.swift */,
-				49CEBCC022FB83DE00904CD1 /* MediaItemSource.swift */,
-				49CEBCB622FB83D500904CD1 /* MediaFilter.swift */,
-				49CEBCB322FB83C800904CD1 /* String.swift */,
+				49621E8423985E5B00C10680 /* Responses */,
+				49621E8323985E4700C10680 /* Requests */,
+				49621E8023985DFC00C10680 /* Extensions */,
+				49621E9323985EC300C10680 /* Shared */,
 				490F1C7C22FB7A45008DBA11 /* CuralateKit.h */,
 				490F1C7D22FB7A45008DBA11 /* Info.plist */,
 				4962A7852301D12000DBF815 /* Client.swift */,
@@ -118,6 +134,77 @@
 				49F089812318294B0046C455 /* EventType.swift */,
 			);
 			path = CuralateKit;
+			sourceTree = "<group>";
+		};
+		4927A385239860E100050296 /* CuralateKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4970E2D923986E4D00DE70CF /* getMedia01.json */,
+				4927A386239860E100050296 /* CuralateKitTests.swift */,
+				4927A388239860E100050296 /* Info.plist */,
+			);
+			path = CuralateKitTests;
+			sourceTree = "<group>";
+		};
+		49621E8023985DFC00C10680 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49621E8123985E0100C10680 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49621E8323985E4700C10680 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				49621E9123985EA300C10680 /* MediaFilter.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		49621E8423985E5B00C10680 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				49621E8723985E6E00C10680 /* MediaItem.swift */,
+				49621E8F23985E8E00C10680 /* GetMediaResponse.swift */,
+				49621E8823985E6E00C10680 /* MediaItemProduct.swift */,
+				49621E8923985E6E00C10680 /* MediaItemSource.swift */,
+				4970E2DE2398807200DE70CF /* Image.swift */,
+				4970E2E02398809500DE70CF /* Video.swift */,
+				4970E2E2239882AF00DE70CF /* NetworkMedia.swift */,
+				49621E8A23985E6E00C10680 /* NetworkPhoto.swift */,
+				4970E2EA23988F2D00DE70CF /* NetworkVideo.swift */,
+				4970E2EC2398905300DE70CF /* NetworkGif.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		49621E9323985EC300C10680 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				49621E9423985ED000C10680 /* PagingCursor.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		834D7FF9990401FF4E0CDE48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C3FC3E00EC4AB566DB4EE29 /* Pods-CuralateKit.debug.xcconfig */,
+				D3989019E2F02F73A67310F0 /* Pods-CuralateKit.release.xcconfig */,
+				68C1A3DE68B8D87C4C4536A3 /* Pods-CuralateKitTests.debug.xcconfig */,
+				516454996C7C0B143CB757AE /* Pods-CuralateKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F02249B12CD8E159D0EABDCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16726E3A93E94D4405B4DFE /* libPods-CuralateKit.a */,
+				418AC3A34EFB6A3433AFEFB7 /* libPods-CuralateKitTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 490F1C8D22FB7A46008DBA11 /* Build configuration list for PBXNativeTarget "CuralateKit" */;
 			buildPhases = (
+				735FA70C07573468AADBB214 /* [CP] Check Pods Manifest.lock */,
 				490F1C7422FB7A45008DBA11 /* Headers */,
 				490F1C7522FB7A45008DBA11 /* Sources */,
 				490F1C7622FB7A45008DBA11 /* Frameworks */,
@@ -152,22 +240,23 @@
 			productReference = 490F1C7922FB7A45008DBA11 /* CuralateKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		490F1C8122FB7A46008DBA11 /* CuralateKitTests */ = {
+		4927A383239860E100050296 /* CuralateKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 490F1C9022FB7A46008DBA11 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */;
+			buildConfigurationList = 4927A38E239860E100050296 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */;
 			buildPhases = (
-				490F1C7E22FB7A46008DBA11 /* Sources */,
-				490F1C7F22FB7A46008DBA11 /* Frameworks */,
-				490F1C8022FB7A46008DBA11 /* Resources */,
+				87CED64FF79639B979AB66F8 /* [CP] Check Pods Manifest.lock */,
+				4927A380239860E100050296 /* Sources */,
+				4927A381239860E100050296 /* Frameworks */,
+				4927A382239860E100050296 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				490F1C8522FB7A46008DBA11 /* PBXTargetDependency */,
+				4927A38B239860E100050296 /* PBXTargetDependency */,
 			);
 			name = CuralateKitTests;
 			productName = CuralateKitTests;
-			productReference = 490F1C8222FB7A46008DBA11 /* CuralateKitTests.xctest */;
+			productReference = 4927A384239860E100050296 /* CuralateKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +265,7 @@
 		490F1C7022FB7A45008DBA11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Curalate, Inc.";
 				TargetAttributes = {
@@ -184,8 +273,8 @@
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
 					};
-					490F1C8122FB7A46008DBA11 = {
-						CreatedOnToolsVersion = 10.3;
+					4927A383239860E100050296 = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
@@ -202,7 +291,7 @@
 			projectRoot = "";
 			targets = (
 				490F1C7822FB7A45008DBA11 /* CuralateKit */,
-				490F1C8122FB7A46008DBA11 /* CuralateKitTests */,
+				4927A383239860E100050296 /* CuralateKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,58 +304,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490F1C8022FB7A46008DBA11 /* Resources */ = {
+		4927A382239860E100050296 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4970E2DD2398738600DE70CF /* getMedia01.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		735FA70C07573468AADBB214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CuralateKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CED64FF79639B979AB66F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CuralateKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		490F1C7522FB7A45008DBA11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CEBCB422FB83C800904CD1 /* String.swift in Sources */,
-				49CEBCB822FB83D500904CD1 /* MediaFilter.swift in Sources */,
+				49621E8223985E0100C10680 /* String.swift in Sources */,
+				49621E8C23985E6E00C10680 /* MediaItem.swift in Sources */,
+				49621E9523985ED000C10680 /* PagingCursor.swift in Sources */,
 				496DE399230B21610033CABE /* MediaSort.swift in Sources */,
 				4962A78E2301D74A00DBF815 /* Curalate.swift in Sources */,
-				49CEBCC122FB83DE00904CD1 /* MediaItemMedia.swift in Sources */,
-				49CEBCC722FB83DE00904CD1 /* MediaItemProduct.swift in Sources */,
-				49CEBCCC22FB83E600904CD1 /* PagingCursor.swift in Sources */,
-				49CEBCC922FB83DE00904CD1 /* MediaItemSource.swift in Sources */,
 				49F089822318294B0046C455 /* EventType.swift in Sources */,
-				49CEBCC322FB83DE00904CD1 /* MediaItem.swift in Sources */,
+				4970E2DF2398807200DE70CF /* Image.swift in Sources */,
+				4970E2E3239882AF00DE70CF /* NetworkMedia.swift in Sources */,
+				49621E8E23985E6E00C10680 /* MediaItemSource.swift in Sources */,
 				496DE397230B162A0033CABE /* CuralateAPIError.swift in Sources */,
+				4970E2ED2398905300DE70CF /* NetworkGif.swift in Sources */,
+				49621E8B23985E6E00C10680 /* NetworkPhoto.swift in Sources */,
 				4962A7862301D12000DBF815 /* Client.swift in Sources */,
-				49CEBCC522FB83DE00904CD1 /* GetMediaResponse.swift in Sources */,
+				4970E2E12398809500DE70CF /* Video.swift in Sources */,
+				49621E9023985E8E00C10680 /* GetMediaResponse.swift in Sources */,
+				49621E9223985EA300C10680 /* MediaFilter.swift in Sources */,
+				4970E2EB23988F2D00DE70CF /* NetworkVideo.swift in Sources */,
+				49621E8D23985E6E00C10680 /* MediaItemProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490F1C7E22FB7A46008DBA11 /* Sources */ = {
+		4927A380239860E100050296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CEBCC622FB83DE00904CD1 /* GetMediaResponse.swift in Sources */,
-				49CEBCB522FB83C800904CD1 /* String.swift in Sources */,
-				49CEBCC222FB83DE00904CD1 /* MediaItemMedia.swift in Sources */,
-				49CEBCC422FB83DE00904CD1 /* MediaItem.swift in Sources */,
-				49CEBCC822FB83DE00904CD1 /* MediaItemProduct.swift in Sources */,
-				49CEBCB922FB83D500904CD1 /* MediaFilter.swift in Sources */,
-				49CEBCCD22FB83E600904CD1 /* PagingCursor.swift in Sources */,
-				49CEBCCA22FB83DE00904CD1 /* MediaItemSource.swift in Sources */,
+				4927A387239860E100050296 /* CuralateKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		490F1C8522FB7A46008DBA11 /* PBXTargetDependency */ = {
+		4927A38B239860E100050296 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 490F1C7822FB7A45008DBA11 /* CuralateKit */;
-			targetProxy = 490F1C8422FB7A46008DBA11 /* PBXContainerItemProxy */;
+			targetProxy = 4927A38A239860E100050296 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,6 +530,7 @@
 		};
 		490F1C8E22FB7A46008DBA11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3FC3E00EC4AB566DB4EE29 /* Pods-CuralateKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -422,6 +558,7 @@
 		};
 		490F1C8F22FB7A46008DBA11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3989019E2F02F73A67310F0 /* Pods-CuralateKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -446,13 +583,14 @@
 			};
 			name = Release;
 		};
-		490F1C9122FB7A46008DBA11 /* Debug */ = {
+		4927A38C239860E100050296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C1A3DE68B8D87C4C4536A3 /* Pods-CuralateKitTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
 				INFOPLIST_FILE = CuralateKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,13 +603,14 @@
 			};
 			name = Debug;
 		};
-		490F1C9222FB7A46008DBA11 /* Release */ = {
+		4927A38D239860E100050296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516454996C7C0B143CB757AE /* Pods-CuralateKitTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
 				INFOPLIST_FILE = CuralateKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,11 +644,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		490F1C9022FB7A46008DBA11 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */ = {
+		4927A38E239860E100050296 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490F1C9122FB7A46008DBA11 /* Debug */,
-				490F1C9222FB7A46008DBA11 /* Release */,
+				4927A38C239860E100050296 /* Debug */,
+				4927A38D239860E100050296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

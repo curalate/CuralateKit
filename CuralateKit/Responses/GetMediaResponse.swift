@@ -4,32 +4,37 @@
 
 import Foundation
 
-public struct GetMediaResponse: Codable {
+public struct GetMediaResponse: Decodable {
     
-    public var data: GetMediaResponseData?
-    public let metadata: GetMediaResponseMetadata?
-    public var paging: GetMediaResponsePaging?
+    let data: GetMediaResponseData
+    let metadata: GetMediaResponseMetadata
+    // We repurpose this property to simplify pagination on subsequent requests, which is why it needs to be mutable.
+    var paging: GetMediaResponsePaging
     
     // Only present if the API sends an error
-    public let code: String?
-    public let msg: String?
-    public let errorId: String?
+    let code: String?
+    let msg: String?
+    let errorId: String?
 }
 
-public struct GetMediaResponseData: Codable {
-    public var items: [MediaItem]
-    public var resultsCount: Int
+public struct GetMediaResponseData: Decodable {
+    let items: [MediaItem]
+    let resultsCount: Int
 }
 
-public struct GetMediaResponseMetadata: Codable {
-    public var traceId: String
-    public var requestId: String
-    public var curalateUserId: String
+public struct GetMediaResponseMetadata: Decodable {
+    let traceId: String
+    let requestId: String?
+    let firstPartyCuid: String?
+    let curalateUserId: String?
+    let customCuralateUserId: String?
+    // TODO: add PDP metadata
 }
 
-public struct GetMediaResponsePaging: Codable {
-    public var cursors: PagingCursor?
-    public var next: URL?
-    public var previous: URL?
+public struct GetMediaResponsePaging: Decodable {
+    // We repurpose this property to simplify pagination on subsequent requests, which is why it needs to be mutable.
+    var cursors: PagingCursor
+    let next: URL?
+    let previous: URL?
 }
 
