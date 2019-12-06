@@ -4,10 +4,10 @@
 
 import Foundation
 
-public struct MediaItem: Codable {
-    public let id: String
-    public let source: MediaItemSource
-    public let labels: [String]
-    public let media: MediaItemMedia?
-    public let products: [MediaItemProduct]
+public struct MediaItem: Decodable {
+    let id: String
+    let source: MediaItemSource
+    let labels: [String]
+    let media: NetworkMedia
+    let products: [MediaItemProduct]
 }

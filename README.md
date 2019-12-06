@@ -30,9 +30,21 @@ let curalate = Curalate(dataSourceId: "<YOUR_DATA_SOURCE_ID>")
 curalate.getMedia(limit: limit) { (response, error) in
     if let error: Error = error {
         print("Error from Curalate API. \(error)")
-    } else if let response = response, let data = response.data {
+    } else if let response = response {
         DispatchQueue.main.async {
-            // process data.items
+            response.data.items.forEach { item in
+                switch item.media {
+                case .networkPhoto(let networkPhoto):
+                    // Process photo
+                    break;
+                case .networkVideo(let networkVideo):
+                    // Process video
+                    break;
+                case .networkGif(let networkGif):
+                    // Process GIF
+                    break;
+                }
+            }
         }
     }
 }

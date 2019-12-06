@@ -4,7 +4,8 @@
 
 import Foundation
 
-public struct PagingCursor: Codable {
+public struct PagingCursor: Decodable {
+
     public let before: String?
     public let after: String?
 

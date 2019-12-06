@@ -67,10 +67,8 @@ open class Curalate: Client {
                     var response = try JSONDecoder().decode(GetMediaResponse.self, from: data)
 
                     // Special case RID
-                    if let metadata = response.metadata {
-                        if (response.paging?.cursors != nil ) {
-                            response.paging!.cursors!.rid = metadata.requestId
-                        }
+                    if let requestId = response.metadata.requestId {
+                        response.paging.cursors.rid = requestId
                     }
 
                     if code == 200 {
@@ -114,5 +112,4 @@ open class Curalate: Client {
     public func resetSession() {
         fpcuid = UUID().uuidString
     }
-
 }
