@@ -5,5 +5,5 @@
 import Foundation
 
 public struct Video : Decodable {
-    let link: URL
+    public let link: URL
 }

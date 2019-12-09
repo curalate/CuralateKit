@@ -5,14 +5,14 @@
 import Foundation
 
 public struct NetworkPhoto: Decodable {
-    let id: String
-    let original: Image
-    let small: Image
-    let medium: Image
-    let large: Image
-    let extraLarge: Image
-    let smallSquare: Image
-    let mediumSquare: Image
-    let largeSquare: Image
-    let extraLargeSquare: Image
+    public let id: String
+    public let original: Image
+    public let small: Image
+    public let medium: Image
+    public let large: Image
+    public let extraLarge: Image
+    public let smallSquare: Image
+    public let mediumSquare: Image
+    public let largeSquare: Image
+    public let extraLargeSquare: Image
 }
