@@ -6,13 +6,15 @@ For questions or support, please contact your Curalate Account Manager or suppor
 
 ## Installation
 
+### Carthage
+
+```
+github "curalate/CuralateKit" ~> 0.1.2
+```
+
 ### CocoaPods
 
 Instructions for installation via CocoaPods is coming soon.
-
-### Carthage [COMING SOON]
-
-Instructions for installation via Carthage is coming soon.
 
 ## Usage
 
