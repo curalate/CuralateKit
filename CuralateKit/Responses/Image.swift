@@ -5,5 +5,5 @@
 import Foundation
 
 public struct Image : Decodable {
-    let link: URL
+    public let link: URL
 }

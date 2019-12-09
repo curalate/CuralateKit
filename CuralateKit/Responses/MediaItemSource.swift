@@ -5,16 +5,16 @@
 import Foundation
 
 public struct MediaItemSource: Decodable {
-    let type: ItemType
-    let postedTimestamp: Int
-    let user: User?
-    let link: URL?
-    let caption: String?
-    let commentCount: Int?
-    let likeCount: Int?
-    let repinCount: Int?
-    let location: Location?
-    let sourceId: String?
+    public let type: ItemType
+    public let postedTimestamp: Int
+    public let user: User?
+    public let link: URL?
+    public let caption: String?
+    public let commentCount: Int?
+    public let likeCount: Int?
+    public let repinCount: Int?
+    public let location: Location?
+    public let sourceId: String?
 }
 
 public enum ItemType: String, Decodable {
@@ -27,24 +27,24 @@ public enum ItemType: String, Decodable {
 }
 
 public struct User: Decodable {
-    let username: String?
-    let displayName: String?
-    let link: URL?
-    let image: ThumbnailPhoto?
-    let followerCount: Int?
-    let followingCount: Int?
+    public let username: String?
+    public let displayName: String?
+    public let link: URL?
+    public let image: ThumbnailPhoto?
+    public let followerCount: Int?
+    public let followingCount: Int?
 }
 
 public struct Location: Decodable {
-    let name: String?
-    let latitude: Float?
-    let longitude: Float?
+    public let name: String?
+    public let latitude: Float?
+    public let longitude: Float?
 }
 
 public struct ThumbnailPhoto: Decodable {
-    let original: Image
-    let small: Image
-    let medium: Image
-    let smallSquare: Image
-    let mediumSquare: Image
+    public let original: Image
+    public let small: Image
+    public let medium: Image
+    public let smallSquare: Image
+    public let mediumSquare: Image
 }

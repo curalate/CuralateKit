@@ -5,8 +5,8 @@
 import Foundation
 
 public struct NetworkVideo: Decodable {
-    let original: Video
-    let highQuality: Video
-    let lowQuality: Video
-    let poster: NetworkPhoto?
+    public let original: Video
+    public let highQuality: Video
+    public let lowQuality: Video
+    public let poster: NetworkPhoto?
 }

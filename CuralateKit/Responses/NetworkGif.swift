@@ -5,6 +5,6 @@
 import Foundation
 
 public struct NetworkGif: Decodable {
-    let id: String
-    let original: Image
+    public let id: String
+    public let original: Image
 }

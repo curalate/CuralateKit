@@ -5,9 +5,9 @@
 import Foundation
 
 public struct MediaItem: Decodable {
-    let id: String
-    let source: MediaItemSource
-    let labels: [String]
-    let media: NetworkMedia
-    let products: [MediaItemProduct]
+    public let id: String
+    public let source: MediaItemSource
+    public let labels: [String]
+    public let media: NetworkMedia
+    public let products: [MediaItemProduct]
 }
