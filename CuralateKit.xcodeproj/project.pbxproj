@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20BB253C875E0ADA3B0098E1 /* libPods-CuralateKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A16726E3A93E94D4405B4DFE /* libPods-CuralateKit.a */; };
 		490F1C8A22FB7A46008DBA11 /* CuralateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 490F1C7C22FB7A45008DBA11 /* CuralateKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4927A387239860E100050296 /* CuralateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4927A386239860E100050296 /* CuralateKitTests.swift */; };
 		4927A389239860E100050296 /* CuralateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F1C7922FB7A45008DBA11 /* CuralateKit.framework */; };
+		494B263023A153B200FF2812 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B262F23A153B200FF2812 /* OHHTTPStubs.framework */; };
+		494B263123A153CD00FF2812 /* OHHTTPStubs.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 494B262F23A153B200FF2812 /* OHHTTPStubs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49621E8223985E0100C10680 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8123985E0100C10680 /* String.swift */; };
 		49621E8B23985E6E00C10680 /* NetworkPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8A23985E6E00C10680 /* NetworkPhoto.swift */; };
 		49621E8C23985E6E00C10680 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49621E8723985E6E00C10680 /* MediaItem.swift */; };
@@ -30,7 +31,6 @@
 		4970E2EB23988F2D00DE70CF /* NetworkVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2EA23988F2D00DE70CF /* NetworkVideo.swift */; };
 		4970E2ED2398905300DE70CF /* NetworkGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970E2EC2398905300DE70CF /* NetworkGif.swift */; };
 		49F089822318294B0046C455 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F089812318294B0046C455 /* EventType.swift */; };
-		7186FFDD33D32B126F45E50A /* libPods-CuralateKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418AC3A34EFB6A3433AFEFB7 /* libPods-CuralateKitTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +43,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		494B262823A1519C00FF2812 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494B262923A151E400FF2812 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				494B263123A153CD00FF2812 /* OHHTTPStubs.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		418AC3A34EFB6A3433AFEFB7 /* libPods-CuralateKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CuralateKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F1C7922FB7A45008DBA11 /* CuralateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CuralateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F1C7C22FB7A45008DBA11 /* CuralateKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CuralateKit.h; sourceTree = "<group>"; };
 		490F1C7D22FB7A45008DBA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4927A384239860E100050296 /* CuralateKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuralateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4927A386239860E100050296 /* CuralateKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateKitTests.swift; sourceTree = "<group>"; };
 		4927A388239860E100050296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494B262F23A153B200FF2812 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = SOURCE_ROOT; };
 		49621E8123985E0100C10680 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		49621E8723985E6E00C10680 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
 		49621E8823985E6E00C10680 /* MediaItemProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemProduct.swift; sourceTree = "<group>"; };
@@ -70,11 +93,6 @@
 		4970E2EA23988F2D00DE70CF /* NetworkVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkVideo.swift; sourceTree = "<group>"; };
 		4970E2EC2398905300DE70CF /* NetworkGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGif.swift; sourceTree = "<group>"; };
 		49F089812318294B0046C455 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
-		516454996C7C0B143CB757AE /* Pods-CuralateKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKitTests.release.xcconfig"; path = "Target Support Files/Pods-CuralateKitTests/Pods-CuralateKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		68C1A3DE68B8D87C4C4536A3 /* Pods-CuralateKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKitTests.debug.xcconfig"; path = "Target Support Files/Pods-CuralateKitTests/Pods-CuralateKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C3FC3E00EC4AB566DB4EE29 /* Pods-CuralateKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKit.debug.xcconfig"; path = "Target Support Files/Pods-CuralateKit/Pods-CuralateKit.debug.xcconfig"; sourceTree = "<group>"; };
-		A16726E3A93E94D4405B4DFE /* libPods-CuralateKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CuralateKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3989019E2F02F73A67310F0 /* Pods-CuralateKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuralateKit.release.xcconfig"; path = "Target Support Files/Pods-CuralateKit/Pods-CuralateKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BB253C875E0ADA3B0098E1 /* libPods-CuralateKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4927A389239860E100050296 /* CuralateKit.framework in Frameworks */,
-				7186FFDD33D32B126F45E50A /* libPods-CuralateKitTests.a in Frameworks */,
+				494B263023A153B200FF2812 /* OHHTTPStubs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +121,7 @@
 				490F1C7B22FB7A45008DBA11 /* CuralateKit */,
 				4927A385239860E100050296 /* CuralateKitTests */,
 				490F1C7A22FB7A45008DBA11 /* Products */,
-				834D7FF9990401FF4E0CDE48 /* Pods */,
-				F02249B12CD8E159D0EABDCD /* Frameworks */,
+				494B262E23A1531E00FF2812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +160,14 @@
 				4927A388239860E100050296 /* Info.plist */,
 			);
 			path = CuralateKitTests;
+			sourceTree = "<group>";
+		};
+		494B262E23A1531E00FF2812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494B262F23A153B200FF2812 /* OHHTTPStubs.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		49621E8023985DFC00C10680 /* Extensions */ = {
@@ -187,26 +211,6 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		834D7FF9990401FF4E0CDE48 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C3FC3E00EC4AB566DB4EE29 /* Pods-CuralateKit.debug.xcconfig */,
-				D3989019E2F02F73A67310F0 /* Pods-CuralateKit.release.xcconfig */,
-				68C1A3DE68B8D87C4C4536A3 /* Pods-CuralateKitTests.debug.xcconfig */,
-				516454996C7C0B143CB757AE /* Pods-CuralateKitTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F02249B12CD8E159D0EABDCD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A16726E3A93E94D4405B4DFE /* libPods-CuralateKit.a */,
-				418AC3A34EFB6A3433AFEFB7 /* libPods-CuralateKitTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -225,11 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 490F1C8D22FB7A46008DBA11 /* Build configuration list for PBXNativeTarget "CuralateKit" */;
 			buildPhases = (
-				735FA70C07573468AADBB214 /* [CP] Check Pods Manifest.lock */,
 				490F1C7422FB7A45008DBA11 /* Headers */,
 				490F1C7522FB7A45008DBA11 /* Sources */,
 				490F1C7622FB7A45008DBA11 /* Frameworks */,
 				490F1C7722FB7A45008DBA11 /* Resources */,
+				494B262823A1519C00FF2812 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,10 +248,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4927A38E239860E100050296 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */;
 			buildPhases = (
-				87CED64FF79639B979AB66F8 /* [CP] Check Pods Manifest.lock */,
 				4927A380239860E100050296 /* Sources */,
 				4927A381239860E100050296 /* Frameworks */,
 				4927A382239860E100050296 /* Resources */,
+				494B262923A151E400FF2812 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -313,53 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		735FA70C07573468AADBB214 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CuralateKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87CED64FF79639B979AB66F8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CuralateKitTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		490F1C7522FB7A45008DBA11 /* Sources */ = {
@@ -530,16 +487,20 @@
 		};
 		490F1C8E22FB7A46008DBA11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C3FC3E00EC4AB566DB4EE29 /* Pods-CuralateKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CuralateKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,16 +519,20 @@
 		};
 		490F1C8F22FB7A46008DBA11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3989019E2F02F73A67310F0 /* Pods-CuralateKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CuralateKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,10 +550,13 @@
 		};
 		4927A38C239860E100050296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68C1A3DE68B8D87C4C4536A3 /* Pods-CuralateKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CuralateKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -605,10 +573,13 @@
 		};
 		4927A38D239860E100050296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 516454996C7C0B143CB757AE /* Pods-CuralateKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3QCXR3YXK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CuralateKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -12,10 +12,6 @@ For questions or support, please contact your Curalate Account Manager or suppor
 github "curalate/CuralateKit" ~> 0.1.2
 ```
 
-### CocoaPods
-
-Instructions for installation via CocoaPods is coming soon.
-
 ## Usage
 
 ### Creating the API Client
