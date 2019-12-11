@@ -9,7 +9,7 @@ For questions or support, please contact your Curalate Account Manager or suppor
 ### Carthage
 
 ```
-github "curalate/CuralateKit" ~> 0.1.2
+github "curalate/CuralateKit" ~> 0.1.3
 ```
 
 ## Usage
