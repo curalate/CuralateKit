@@ -6,10 +6,16 @@ For questions or support, please contact your Curalate Account Manager or suppor
 
 ## Installation
 
+### Swift Package Manager
+
+```
+.package(url: "https://github.com/curalate/CuralateKit.git", from: "0.2.0"),
+```
+
 ### Carthage
 
 ```
-github "curalate/CuralateKit" ~> 0.1.4
+github "curalate/CuralateKit" ~> 0.2.0
 ```
 
 ## Usage
