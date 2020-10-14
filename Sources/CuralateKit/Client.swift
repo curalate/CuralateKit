@@ -17,7 +17,7 @@ open class Client: NSObject {
     let hostname: String
 
     init(
-        userAgent: String = "CuralateKit/\(CuralateKitVersionNumber)",
+        userAgent: String = "CuralateKit",
         hostname: String = "api-2.curalate.com"
     ) {
         self.userAgent = userAgent

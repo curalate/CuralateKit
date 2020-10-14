@@ -14,6 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/AliSoftware/OHHTTPStubs.git", from: "9.0.0"),
     ],
 
     targets: [
@@ -25,6 +26,6 @@ let package = Package(
         
         .testTarget(
             name: "CuralateKitTests",
-            dependencies: ["CuralateKit"]),
+            dependencies: ["CuralateKit", "OHHTTPStubs", "OHHTTPStubsSwift"]),
     ]
 )

@@ -12,7 +12,7 @@ open class Curalate: Client {
 
     public init(
         dataSourceId: String,
-        userAgent: String = "CuralateKit/\(CuralateKitVersionNumber)",
+        userAgent: String = "CuralateKit",
         hostname: String = "api-2.curalate.com"
     ) {
         self.dataSourceId = dataSourceId
