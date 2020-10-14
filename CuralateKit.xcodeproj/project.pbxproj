@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"CuralateKit::CuralateKitPackageTests::ProductTarget" /* CuralateKitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_98 /* Build configuration list for PBXAggregateTarget "CuralateKitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_101 /* PBXTargetDependency */,
+			);
+			name = CuralateKitPackageTests;
+			productName = CuralateKitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_107 /* CuralateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* CuralateKitTests.swift */; };
+		OBJ_108 /* TestResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* TestResponses.swift */; };
+		OBJ_110 /* OHHTTPStubsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OHHTTPStubs::OHHTTPStubsSwift::Product" /* OHHTTPStubsSwift.framework */; };
+		OBJ_111 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OHHTTPStubs::OHHTTPStubs::Product" /* OHHTTPStubs.framework */; };
+		OBJ_112 /* CuralateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CuralateKit::CuralateKit::Product" /* CuralateKit.framework */; };
+		OBJ_122 /* HTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* HTTPStubs+NSURLSessionConfiguration.m */; };
+		OBJ_123 /* HTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* HTTPStubs.m */; };
+		OBJ_124 /* HTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* HTTPStubsMethodSwizzling.m */; };
+		OBJ_125 /* HTTPStubsPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* HTTPStubsPathHelpers.m */; };
+		OBJ_126 /* HTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* HTTPStubsResponse+JSON.m */; };
+		OBJ_127 /* HTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* HTTPStubsResponse.m */; };
+		OBJ_128 /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* NSURLRequest+HTTPBodyTesting.m */; };
+		OBJ_135 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Package.swift */; };
+		OBJ_140 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* OHHTTPStubsSwift.swift */; };
+		OBJ_142 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OHHTTPStubs::OHHTTPStubs::Product" /* OHHTTPStubs.framework */; };
+		OBJ_72 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Client.swift */; };
+		OBJ_73 /* Curalate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Curalate.swift */; };
+		OBJ_74 /* CuralateAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* CuralateAPIError.swift */; };
+		OBJ_75 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* EventType.swift */; };
+		OBJ_76 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* String.swift */; };
+		OBJ_77 /* MediaSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* MediaSort.swift */; };
+		OBJ_78 /* MediaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* MediaFilter.swift */; };
+		OBJ_79 /* GetMediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* GetMediaResponse.swift */; };
+		OBJ_80 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Image.swift */; };
+		OBJ_81 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* MediaItem.swift */; };
+		OBJ_82 /* MediaItemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* MediaItemProduct.swift */; };
+		OBJ_83 /* MediaItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* MediaItemSource.swift */; };
+		OBJ_84 /* NetworkGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* NetworkGif.swift */; };
+		OBJ_85 /* NetworkMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* NetworkMedia.swift */; };
+		OBJ_86 /* NetworkPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* NetworkPhoto.swift */; };
+		OBJ_87 /* NetworkVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* NetworkVideo.swift */; };
+		OBJ_88 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Video.swift */; };
+		OBJ_89 /* PagingCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* PagingCursor.swift */; };
+		OBJ_96 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497B791B253778D40084C246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OHHTTPStubs::OHHTTPStubsSwift";
+			remoteInfo = OHHTTPStubsSwift;
+		};
+		497B791C253778D40084C246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OHHTTPStubs::OHHTTPStubs";
+			remoteInfo = OHHTTPStubs;
+		};
+		497B791D253778D40084C246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OHHTTPStubs::OHHTTPStubs";
+			remoteInfo = OHHTTPStubs;
+		};
+		497B791E253778D40084C246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CuralateKit::CuralateKit";
+			remoteInfo = CuralateKit;
+		};
+		497B791F253778D50084C246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CuralateKit::CuralateKitTests";
+			remoteInfo = CuralateKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"CuralateKit::CuralateKit::Product" /* CuralateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CuralateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CuralateKit::CuralateKitTests::Product" /* CuralateKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CuralateKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_11 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Curalate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curalate.swift; sourceTree = "<group>"; };
+		OBJ_13 /* CuralateAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateAPIError.swift; sourceTree = "<group>"; };
+		OBJ_14 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		OBJ_16 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_17 /* MediaSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSort.swift; sourceTree = "<group>"; };
+		OBJ_19 /* MediaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFilter.swift; sourceTree = "<group>"; };
+		OBJ_21 /* GetMediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMediaResponse.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		OBJ_23 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		OBJ_24 /* MediaItemProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemProduct.swift; sourceTree = "<group>"; };
+		OBJ_25 /* MediaItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemSource.swift; sourceTree = "<group>"; };
+		OBJ_26 /* NetworkGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGif.swift; sourceTree = "<group>"; };
+		OBJ_27 /* NetworkMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMedia.swift; sourceTree = "<group>"; };
+		OBJ_28 /* NetworkPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPhoto.swift; sourceTree = "<group>"; };
+		OBJ_29 /* NetworkVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkVideo.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		OBJ_32 /* PagingCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingCursor.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_36 /* CuralateKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuralateKitTests.swift; sourceTree = "<group>"; };
+		OBJ_37 /* TestResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResponses.swift; sourceTree = "<group>"; };
+		OBJ_41 /* HTTPStubs+NSURLSessionConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HTTPStubs+NSURLSessionConfiguration.m"; sourceTree = "<group>"; };
+		OBJ_42 /* HTTPStubs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPStubs.m; sourceTree = "<group>"; };
+		OBJ_43 /* HTTPStubsMethodSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPStubsMethodSwizzling.m; sourceTree = "<group>"; };
+		OBJ_44 /* HTTPStubsPathHelpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPStubsPathHelpers.m; sourceTree = "<group>"; };
+		OBJ_45 /* HTTPStubsResponse+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HTTPStubsResponse+JSON.m"; sourceTree = "<group>"; };
+		OBJ_46 /* HTTPStubsResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPStubsResponse.m; sourceTree = "<group>"; };
+		OBJ_47 /* NSURLRequest+HTTPBodyTesting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+HTTPBodyTesting.m"; sourceTree = "<group>"; };
+		OBJ_49 /* Compatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compatibility.h; sourceTree = "<group>"; };
+		OBJ_50 /* HTTPStubsResponse+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTTPStubsResponse+JSON.h"; sourceTree = "<group>"; };
+		OBJ_51 /* HTTPStubsPathHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPStubsPathHelpers.h; sourceTree = "<group>"; };
+		OBJ_52 /* HTTPStubsResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPStubsResponse.h; sourceTree = "<group>"; };
+		OBJ_53 /* NSURLRequest+HTTPBodyTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+HTTPBodyTesting.h"; sourceTree = "<group>"; };
+		OBJ_54 /* HTTPStubs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPStubs.h; sourceTree = "<group>"; };
+		OBJ_55 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/nshiftan/Code/CuralateKit/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs/module.modulemap; sourceTree = "<group>"; };
+		OBJ_57 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
+		OBJ_58 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/nshiftan/Code/CuralateKit/.build/checkouts/OHHTTPStubs/Package.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		OBJ_65 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		OBJ_66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_9 /* CuralateKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CuralateKit.h; sourceTree = "<group>"; };
+		"OHHTTPStubs::OHHTTPStubs::Product" /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"OHHTTPStubs::OHHTTPStubsSwift::Product" /* OHHTTPStubsSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OHHTTPStubsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_110 /* OHHTTPStubsSwift.framework in Frameworks */,
+				OBJ_111 /* OHHTTPStubs.framework in Frameworks */,
+				OBJ_112 /* CuralateKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_142 /* OHHTTPStubs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* MediaFilter.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* GetMediaResponse.swift */,
+				OBJ_22 /* Image.swift */,
+				OBJ_23 /* MediaItem.swift */,
+				OBJ_24 /* MediaItemProduct.swift */,
+				OBJ_25 /* MediaItemSource.swift */,
+				OBJ_26 /* NetworkGif.swift */,
+				OBJ_27 /* NetworkMedia.swift */,
+				OBJ_28 /* NetworkPhoto.swift */,
+				OBJ_29 /* NetworkVideo.swift */,
+				OBJ_30 /* Video.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* PagingCursor.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		OBJ_33 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* CuralateKitTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_34 /* CuralateKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* Info.plist */,
+				OBJ_36 /* CuralateKitTests.swift */,
+				OBJ_37 /* TestResponses.swift */,
+			);
+			name = CuralateKitTests;
+			path = Tests/CuralateKitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_38 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* OHHTTPStubs 9.0.0 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_39 /* OHHTTPStubs 9.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* OHHTTPStubs */,
+				OBJ_56 /* OHHTTPStubsSwift */,
+				OBJ_58 /* Package.swift */,
+			);
+			name = "OHHTTPStubs 9.0.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_40 /* OHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_41 /* HTTPStubs+NSURLSessionConfiguration.m */,
+				OBJ_42 /* HTTPStubs.m */,
+				OBJ_43 /* HTTPStubsMethodSwizzling.m */,
+				OBJ_44 /* HTTPStubsPathHelpers.m */,
+				OBJ_45 /* HTTPStubsResponse+JSON.m */,
+				OBJ_46 /* HTTPStubsResponse.m */,
+				OBJ_47 /* NSURLRequest+HTTPBodyTesting.m */,
+				OBJ_48 /* include */,
+			);
+			name = OHHTTPStubs;
+			path = .build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_48 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_49 /* Compatibility.h */,
+				OBJ_50 /* HTTPStubsResponse+JSON.h */,
+				OBJ_51 /* HTTPStubsPathHelpers.h */,
+				OBJ_52 /* HTTPStubsResponse.h */,
+				OBJ_53 /* NSURLRequest+HTTPBodyTesting.h */,
+				OBJ_54 /* HTTPStubs.h */,
+				OBJ_55 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_33 /* Tests */,
+				OBJ_38 /* Dependencies */,
+				OBJ_59 /* Products */,
+				OBJ_64 /* Cartfile.resolved */,
+				OBJ_65 /* Cartfile */,
+				OBJ_66 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_56 /* OHHTTPStubsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_57 /* OHHTTPStubsSwift.swift */,
+			);
+			name = OHHTTPStubsSwift;
+			path = .build/checkouts/OHHTTPStubs/Sources/OHHTTPStubsSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"OHHTTPStubs::OHHTTPStubsSwift::Product" /* OHHTTPStubsSwift.framework */,
+				"CuralateKit::CuralateKit::Product" /* CuralateKit.framework */,
+				"CuralateKit::CuralateKitTests::Product" /* CuralateKitTests.xctest */,
+				"OHHTTPStubs::OHHTTPStubs::Product" /* OHHTTPStubs.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CuralateKit */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CuralateKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CuralateKit.h */,
+				OBJ_10 /* Info.plist */,
+				OBJ_11 /* Client.swift */,
+				OBJ_12 /* Curalate.swift */,
+				OBJ_13 /* CuralateAPIError.swift */,
+				OBJ_14 /* EventType.swift */,
+				OBJ_15 /* Extensions */,
+				OBJ_17 /* MediaSort.swift */,
+				OBJ_18 /* Requests */,
+				OBJ_20 /* Responses */,
+				OBJ_31 /* Shared */,
+			);
+			name = CuralateKit;
+			path = Sources/CuralateKit;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CuralateKit::CuralateKit" /* CuralateKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXNativeTarget "CuralateKit" */;
+			buildPhases = (
+				OBJ_71 /* Sources */,
+				OBJ_90 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuralateKit;
+			productName = CuralateKit;
+			productReference = "CuralateKit::CuralateKit::Product" /* CuralateKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CuralateKit::CuralateKitTests" /* CuralateKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */;
+			buildPhases = (
+				OBJ_106 /* Sources */,
+				OBJ_109 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_113 /* PBXTargetDependency */,
+				OBJ_115 /* PBXTargetDependency */,
+				OBJ_117 /* PBXTargetDependency */,
+			);
+			name = CuralateKitTests;
+			productName = CuralateKitTests;
+			productReference = "CuralateKit::CuralateKitTests::Product" /* CuralateKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CuralateKit::SwiftPMPackageDescription" /* CuralateKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "CuralateKitPackageDescription" */;
+			buildPhases = (
+				OBJ_95 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuralateKitPackageDescription;
+			productName = CuralateKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"OHHTTPStubs::OHHTTPStubs" /* OHHTTPStubs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_118 /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */;
+			buildPhases = (
+				OBJ_121 /* Sources */,
+				OBJ_129 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHHTTPStubs;
+			productName = OHHTTPStubs;
+			productReference = "OHHTTPStubs::OHHTTPStubs::Product" /* OHHTTPStubs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"OHHTTPStubs::OHHTTPStubsSwift" /* OHHTTPStubsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_136 /* Build configuration list for PBXNativeTarget "OHHTTPStubsSwift" */;
+			buildPhases = (
+				OBJ_139 /* Sources */,
+				OBJ_141 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_143 /* PBXTargetDependency */,
+			);
+			name = OHHTTPStubsSwift;
+			productName = OHHTTPStubsSwift;
+			productReference = "OHHTTPStubs::OHHTTPStubsSwift::Product" /* OHHTTPStubsSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"OHHTTPStubs::SwiftPMPackageDescription" /* OHHTTPStubsPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_131 /* Build configuration list for PBXNativeTarget "OHHTTPStubsPackageDescription" */;
+			buildPhases = (
+				OBJ_134 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHHTTPStubsPackageDescription;
+			productName = OHHTTPStubsPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CuralateKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CuralateKit::CuralateKit" /* CuralateKit */,
+				"CuralateKit::SwiftPMPackageDescription" /* CuralateKitPackageDescription */,
+				"CuralateKit::CuralateKitPackageTests::ProductTarget" /* CuralateKitPackageTests */,
+				"CuralateKit::CuralateKitTests" /* CuralateKitTests */,
+				"OHHTTPStubs::OHHTTPStubs" /* OHHTTPStubs */,
+				"OHHTTPStubs::SwiftPMPackageDescription" /* OHHTTPStubsPackageDescription */,
+				"OHHTTPStubs::OHHTTPStubsSwift" /* OHHTTPStubsSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_107 /* CuralateKitTests.swift in Sources */,
+				OBJ_108 /* TestResponses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_122 /* HTTPStubs+NSURLSessionConfiguration.m in Sources */,
+				OBJ_123 /* HTTPStubs.m in Sources */,
+				OBJ_124 /* HTTPStubsMethodSwizzling.m in Sources */,
+				OBJ_125 /* HTTPStubsPathHelpers.m in Sources */,
+				OBJ_126 /* HTTPStubsResponse+JSON.m in Sources */,
+				OBJ_127 /* HTTPStubsResponse.m in Sources */,
+				OBJ_128 /* NSURLRequest+HTTPBodyTesting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_135 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_140 /* OHHTTPStubsSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_72 /* Client.swift in Sources */,
+				OBJ_73 /* Curalate.swift in Sources */,
+				OBJ_74 /* CuralateAPIError.swift in Sources */,
+				OBJ_75 /* EventType.swift in Sources */,
+				OBJ_76 /* String.swift in Sources */,
+				OBJ_77 /* MediaSort.swift in Sources */,
+				OBJ_78 /* MediaFilter.swift in Sources */,
+				OBJ_79 /* GetMediaResponse.swift in Sources */,
+				OBJ_80 /* Image.swift in Sources */,
+				OBJ_81 /* MediaItem.swift in Sources */,
+				OBJ_82 /* MediaItemProduct.swift in Sources */,
+				OBJ_83 /* MediaItemSource.swift in Sources */,
+				OBJ_84 /* NetworkGif.swift in Sources */,
+				OBJ_85 /* NetworkMedia.swift in Sources */,
+				OBJ_86 /* NetworkPhoto.swift in Sources */,
+				OBJ_87 /* NetworkVideo.swift in Sources */,
+				OBJ_88 /* Video.swift in Sources */,
+				OBJ_89 /* PagingCursor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CuralateKit::CuralateKitTests" /* CuralateKitTests */;
+			targetProxy = 497B791F253778D50084C246 /* PBXContainerItemProxy */;
+		};
+		OBJ_113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OHHTTPStubs::OHHTTPStubsSwift" /* OHHTTPStubsSwift */;
+			targetProxy = 497B791B253778D40084C246 /* PBXContainerItemProxy */;
+		};
+		OBJ_115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OHHTTPStubs::OHHTTPStubs" /* OHHTTPStubs */;
+			targetProxy = 497B791D253778D40084C246 /* PBXContainerItemProxy */;
+		};
+		OBJ_117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CuralateKit::CuralateKit" /* CuralateKit */;
+			targetProxy = 497B791E253778D40084C246 /* PBXContainerItemProxy */;
+		};
+		OBJ_143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OHHTTPStubs::OHHTTPStubs" /* OHHTTPStubs */;
+			targetProxy = 497B791C253778D40084C246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include",
+					"$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs",
+				);
+				INFOPLIST_FILE = CuralateKit.xcodeproj/CuralateKitTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CuralateKitTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include",
+					"$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs",
+				);
+				INFOPLIST_FILE = CuralateKit.xcodeproj/CuralateKitTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CuralateKitTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include",
+				);
+				INFOPLIST_FILE = CuralateKit.xcodeproj/OHHTTPStubs_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OHHTTPStubs;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = OHHTTPStubs;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include",
+				);
+				INFOPLIST_FILE = CuralateKit.xcodeproj/OHHTTPStubs_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OHHTTPStubs;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = OHHTTPStubs;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include",
+					"$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs",
+				);
+				INFOPLIST_FILE = CuralateKit.xcodeproj/OHHTTPStubsSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = OHHTTPStubsSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OHHTTPStubsSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/OHHTTPStubs/Sources/OHHTTPStubs/include",
+					"$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs",
+				);
+				INFOPLIST_FILE = CuralateKit.xcodeproj/OHHTTPStubsSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/CuralateKit.xcodeproj/GeneratedModuleMap/OHHTTPStubs/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = OHHTTPStubsSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OHHTTPStubsSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuralateKit.xcodeproj/CuralateKit_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CuralateKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CuralateKit;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CuralateKit.xcodeproj/CuralateKit_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CuralateKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CuralateKit;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_103 /* Build configuration list for PBXNativeTarget "CuralateKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_104 /* Debug */,
+				OBJ_105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_118 /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_119 /* Debug */,
+				OBJ_120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_131 /* Build configuration list for PBXNativeTarget "OHHTTPStubsPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_132 /* Debug */,
+				OBJ_133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_136 /* Build configuration list for PBXNativeTarget "OHHTTPStubsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_137 /* Debug */,
+				OBJ_138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "CuralateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_68 /* Build configuration list for PBXNativeTarget "CuralateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_92 /* Build configuration list for PBXNativeTarget "CuralateKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_98 /* Build configuration list for PBXAggregateTarget "CuralateKitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_99 /* Debug */,
+				OBJ_100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
