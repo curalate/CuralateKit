@@ -4,6 +4,7 @@
 
 import XCTest
 import OHHTTPStubs
+import OHHTTPStubsSwift
 @testable import CuralateKit
 
 
@@ -11,16 +12,16 @@ class CuralateKitTests: XCTestCase {
 
     override func setUp() {
         stub(condition: isHost("api-2.curalate.com") && isPath("/v1/media/01")) { _ in
-            return OHHTTPStubsResponse(
-              fileAtPath: OHPathForFile("getMedia01.json", type(of: self))!,
-              statusCode: 200,
-              headers: ["Content-Type":"application/json"]
+            return HTTPStubsResponse(
+                data: TestResponses.getMedia01.data(using: .utf8)!,
+                statusCode: 200,
+                headers: ["Content-Type":"application/json"]
             )
         }
     }
 
     override func tearDown() {
-        OHHTTPStubs.removeAllStubs()
+        HTTPStubs.removeAllStubs()
     }
 
     // Happy path test. Two media items: one image and one video.

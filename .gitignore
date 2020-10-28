@@ -18,6 +18,9 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+
+## Xcode
+.swiftpm
 xcuserdata/
 
 ## Other
@@ -38,10 +41,10 @@ playground.xcworkspace
 # Swift Package Manager
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
+/Packages
 # Package.pins
 # Package.resolved
-.build/
+/.build
 
 # CocoaPods
 #

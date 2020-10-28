@@ -1,3 +1,11 @@
+//
+// Copyright (c) 2011-2020 by Curalate, Inc.
+//
+
+struct TestResponses {
+    
+    static let getMedia01 =
+"""
 {
     "data": {
         "items": [
@@ -283,4 +291,7 @@
         },
         "next": "https://api-2.curalate.com/v1/media/MHBrBkXLABehgrzQ?limit=2&after=XXXc9a2f-dc4a-4e41-b81f-b84d28727fe8_1574614010000"
     }
+}
+"""
+
 }
