@@ -26,6 +26,7 @@ public enum ItemType: String, Decodable {
     case tumblr
     case youtube
     case mediaimport
+    case bazaarvoice
 }
 
 public struct User: Decodable {
