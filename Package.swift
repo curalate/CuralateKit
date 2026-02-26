@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "CuralateKit",
+    platforms: [
+        .iOS(.v12),
+        .tvOS(.v12),
+        .watchOS(.v4),
+        .macOS(.v10_13),
+    ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(

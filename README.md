@@ -6,6 +6,13 @@ For questions or support, please contact your Curalate Account Manager or suppor
 
 ## Installation
 
+### Minimum Supported Platforms
+
+- iOS 12.0+
+- tvOS 12.0+
+- watchOS 4.0+
+- macOS 10.13+
+
 ### Swift Package Manager
 
 ```
