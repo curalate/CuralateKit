@@ -16,13 +16,13 @@ For questions or support, please contact your Curalate Account Manager or suppor
 ### Swift Package Manager
 
 ```
-.package(url: "https://github.com/curalate/CuralateKit.git", from: "0.2.1"),
+.package(url: "https://github.com/curalate/CuralateKit.git", from: "0.3.0"),
 ```
 
 ### Carthage
 
 ```
-github "curalate/CuralateKit" ~> 0.2.1
+github "curalate/CuralateKit" ~> 0.3.0
 ```
 
 ## Usage
